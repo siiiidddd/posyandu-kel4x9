@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.image('./c:\Users\User\Downloads\foto posyandu.jpeg.png')
 st.header('Posyandu Balita Bunda')
 st.write("Keterangan")
 
