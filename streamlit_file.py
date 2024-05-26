@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import image
 
 st.image('foto posyandu.png')
 st.title('Posyandu Balita Bunda')
