@@ -1,9 +1,11 @@
 import streamlit as st
 
 st.title('Posyandu Balita Bunda')
+st.header("Aplikasi pendeteksi kurang gizi pada anak dibawah 1 tahun")
 st.write("Keterangan")
+st.write("Jika tertulis keterangan 'true' berarti kurang gizi, jika tertulis 'false' maka gizi tidak kurang")
 
-umur = st.number_input("Masukan umur anak= ", 0)
+umur = st.number_input("Masukan umur anak(bulan)= ", 0)
 tinggi = st.number_input("Masukan tinggi anak=", 0)
 berat = st.number_input("Masukan berat anak=", 0)
 
