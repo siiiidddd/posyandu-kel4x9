@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.image('foto posyandu.png')
 st.title('Posyandu Balita Bunda')
 st.write("Keterangan")
 
@@ -11,6 +10,6 @@ selanjutnya = st.button("lanjut")
 if selanjutnya :
     berat < 10
     st.write("kurang gizi")
-else :
+elif :
     berat > 10
     st.write("cukup")
