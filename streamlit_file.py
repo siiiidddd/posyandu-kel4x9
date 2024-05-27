@@ -11,7 +11,3 @@ if selanjutnya :
     umur == 1
     berat < 3
     st.write("kurang gizi")
-elif selanjutnya :
-    umur == 1
-    berat > 5
-    st.write("Lebih gizi")
