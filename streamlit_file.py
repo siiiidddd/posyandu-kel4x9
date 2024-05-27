@@ -13,3 +13,9 @@ if umur == 1 :
 elif umur == 1 :
     berat > 5
     st.write("Lebih gizi")
+elif umur == 2 :
+    berat < 5
+    st.write("Kurang gizi")
+elif umur == 2 :
+    berat > 7
+    st.write("Lebih gizi")
