@@ -10,6 +10,6 @@ selanjutnya = st.button("lanjut")
 if selanjutnya :
     berat < 10
     st.write("kurang gizi")
-elif :
+elif selanjutnya :
     berat > 10
     st.write("cukup")
