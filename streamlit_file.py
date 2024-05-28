@@ -15,8 +15,14 @@ tinggi = st.number_input("Masukan tinggi anak=", 0)
 berat = st.number_input("Masukan berat anak=", 0)
 
 if umur == 1 :
-    berat == 5
-    st.write("Gizi cukup")
+    berat == 0
+    st.write("kurang gizi")
+if umur == 1 :
+    berat == 1
+    st.write("kurang gizi")
+if umur == 1 :
+    berat == 2
+    st.write("kurang gizi")
 if umur == 2 :
     berat < 4
     st.write("Kurang gizi")
