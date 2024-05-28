@@ -13,12 +13,9 @@ st.write("Jika tertulis keterangan 'true' berarti kurang gizi, jika tertulis 'fa
 umur = st.number_input("Masukan umur anak(bulan)= ", 0)
 tinggi = st.number_input("Masukan tinggi anak=", 0)
 berat = st.number_input("Masukan berat anak=", 0)
+lanjut = st.button("Selanjutnya")
 
-if umur == 1 :
-    berat < 3
-    st.text("kurang gizi")
-else :
-    berat > 5
-    st.text("gizi cukup")
-
+if lanjut : 
+    umur == 1, berat < 3
+    st.write("kurang gizi") 
 
