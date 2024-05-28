@@ -18,21 +18,14 @@ lanjut = st.button("Selanjutnya")
 if lanjut :
     umur == 1 
     berat < 3
-    st.write("kurang gizi")
-elif lanjut :
     umur == 2 
     berat < 4
-    st.write("Kurang gizi")
-elif lanjut :
     umur == 3 
     berat < 4
-    st.write("Kurang gizi")
-elif lanjut :
     umur == 4 
     berat < 5
-    st.write("Kurang gizi")
-elif lanjut :
     umur == 5 
     berat < 6
-    st.write("Kurang gizi")
+    st.write("kurang gizi")
+
 
