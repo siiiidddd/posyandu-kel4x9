@@ -18,4 +18,12 @@ lanjut = st.button("selanjutnya")
 if lanjut :
     umur == 1
     berat < 3
-    
+if umur == 2 :
+    berat < 4
+if umur == 3 :
+    berat < 4
+if umur == 4 :
+    berat < 5
+if umur == 5 :
+    berat < 6
+
