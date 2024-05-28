@@ -18,5 +18,4 @@ lanjut = st.button("selanjutnya")
 if lanjut :
     umur == 1
     berat < 3
-    x = kurang gizi
-    st.write("Hasil", x)
+    st.write("Hasil", lanjut)
