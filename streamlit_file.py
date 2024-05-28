@@ -17,6 +17,9 @@ berat = st.number_input("Masukan berat anak=", 0)
 if umur == 1 :
     berat < 3
     st.write("kurang gizi")
+if umur == 1 :
+    berat > 3
+    st.write("Gizi cukup")
 if umur == 2 :
     berat < 4
     st.write("Kurang gizi")
