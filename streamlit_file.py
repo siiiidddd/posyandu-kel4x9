@@ -16,6 +16,6 @@ berat = st.number_input("Masukan berat anak=", 0)
 lanjut = st.button("Selanjutnya")
 
 if lanjut : 
-    umur == 1, berat < 3
+     usia = umur * 1, kg = berat < 3
     st.write("kurang gizi") 
 
