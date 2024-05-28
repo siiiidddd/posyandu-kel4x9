@@ -18,4 +18,4 @@ lanjut = st.button("selanjutnya")
 if lanjut :
     umur == 1
     berat < 3
-    st.write("Hasil", lanjut)
+    
