@@ -17,25 +17,16 @@ berat = st.number_input("Masukan berat anak=", 0)
 if umur == 1 :
     berat < 3
     st.write("kurang gizi")
-elif umur == 1 :
-    berat > 5
 elif umur == 2 :
     berat < 4
     st.write("Kurang gizi")
-elif umur == 2 :
-    berat > 6
 elif umur == 3 :
     berat < 4
     st.write("Kurang gizi")
-elif umur == 3 :
-    berat > 7
 elif umur == 4 :
     berat < 5
     st.write("Kurang gizi")
-elif umur == 4 :
-    berat > 7.5
 elif umur == 5 :
     berat < 6
     st.write("Kurang gizi")
-elif umur == 5 :
-    berat > 8
+
