@@ -16,13 +16,13 @@ berat = st.number_input("Masukan berat anak=", 0)
 
 if umur == 1 :
     berat == 0
-    st.write("kurang gizi")
+    st.text("kurang gizi")
 if umur == 1 :
     berat == 1
-    st.write("kurang gizi")
+    st.text("kurang gizi")
 if umur == 1 :
     berat == 2
-    st.write("kurang gizi")
+    st.text("kurang gizi")
 if umur == 2 :
     berat < 4
     st.write("Kurang gizi")
