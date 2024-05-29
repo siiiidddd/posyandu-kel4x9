@@ -1,13 +1,14 @@
 import streamlit as st
 
 st.title('Posyandu Balita Bunda')
-st.header("Aplikasi pendeteksi kurang gizi pada anak dibawah 1 tahun")
 st.write("Posyandu merupakan kependekan dari Pos Pelayanan Terpadu, merupakan Lembaga Kemasyarakatan Desa/Kelurahan (LKD/LKK) sebagai wadah partisipasi masyarakat yang bertugas membantu Kepala Desa/Lurah dalam peningkatan pelayanan social dasar termasuk bidang kesehatan.")
 st.write("5 langkah pelayanan pada Posyandu, yaitu:")
 st.write("Pendaftaran")
 st.write("Pengukuran dan Penimbangan")
 st.write("Pencatatan")
 st.write("Penyuluhan Kesehatan")
+st.header("Aplikasi pendeteksi kurang gizi pada anak dibawah 1 tahun")
+st.write("Jika setelah klik tombol selanjutnya lalu tidak muncul keterangan gizi kurang atau lebih berarti gizi anak telah tercukupi")
 
 umur = st.number_input("Masukan umur anak(bulan)= ", 0)
 berat = st.number_input("Masukan berat anak=", 0)
@@ -61,5 +62,3 @@ elif lanjut and umur == 12 and berat < 7:
      st.write("kurang gizi")
 elif lanjut and umur == 12 and berat > 10.5:
      st.write("gizi lebih")
-else :
-    st.write("Gizi cukup")
