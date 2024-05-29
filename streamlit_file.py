@@ -17,3 +17,21 @@ lanjut = st.button("Selanjutnya")
 
 if umur == 1  and berat < 3:
     st.write("kurang gizi")
+elif umur == 1 and berat > 5:
+    st.write("gizi lebih")
+elif umur == 2 and berat < 4:
+    st.write("Kurang gizi")
+elif umur == 2 and berat > 6:
+    st.write("gizi lebih")
+elif umur == 3 and berat < 4:
+    st.write("Kurang gizi")
+elif umur == 3 and berat > 7:
+    st.write("gizi lebih")
+elif umur == 4 and berat < 5:
+    st.write("Kurang gizi")
+elif umur == 4 and berat > 7.5:
+    st.write("gizi lebih")
+elif umur == 5 and berat < 6:
+    st.write("Kurang gizi")
+elif umur == 5 and berat > 8:
+    st.write("gizi lebih")
