@@ -57,7 +57,7 @@ elif lanjut and umur == 11 and berat < 7:
      st.write("kurang gizi")
 elif lanjut and umur == 11 and berat > 10:
      st.write("gizi lebih")
-elif lanjut and umur == 12 and berat < 7
+elif lanjut and umur == 12 and berat < 7:
      st.write("kurang gizi")
 elif lanjut and umur == 12 and berat > 10.5
      st.write("gizi lebih")
