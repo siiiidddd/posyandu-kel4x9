@@ -7,9 +7,9 @@ st.write("Pendaftaran")
 st.write("Pengukuran dan Penimbangan")
 st.write("Pencatatan")
 st.write("Penyuluhan Kesehatan")
-st.header("Aplikasi pendeteksi kurang gizi pada anak dibawah 1 tahun")
+st.header("Aplikasi pendeteksi kurang gizi pada anak dibawah 1 tahun:sparkling_heart:")
 st.write("Jika setelah klik tombol selanjutnya lalu tidak muncul keterangan gizi kurang atau lebih berarti gizi anak telah tercukupi")
-
+#KAMI CINTA INFORMATIKA
 umur = st.number_input("Masukan umur anak(bulan)= ", 0)
 berat = st.number_input("Masukan berat anak=", 0)
 lanjut = st.button("Selanjutnya")
